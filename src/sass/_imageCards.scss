@@ -11,16 +11,24 @@
   transition: box-shadow 0.3s ease-in-out;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-	font-size: 25px;
-	font-weight: 500;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .info-item:not(:last-child) {
   margin-right: 10px;
 }
 
+.info-item {
+  font-size: 28px;
+  text-align: center;
+}
+
 .info {
-  padding-left: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20 20;
 }
 
 // ===========================
@@ -35,7 +43,7 @@
   border: 1px solid black;
   background-color: white;
   transition: 0.3s;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .is-hidden {
@@ -53,14 +61,14 @@
   flex-wrap: wrap;
   // justify-content: center;
   // align-items: center;
-  gap: 19px;
+  gap: 20px;
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .photo-card {
-  width: calc((100% - 1 * 19px)/2);
+  width: calc((100% - 1 * 20px) / 2);
   background-color: #6495ed;
   border: 1px solid #333;
   border-radius: 20px;
@@ -91,7 +99,7 @@ body {
   border: none;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-	font-size: 25px;
-	font-weight: 500;
-	cursor: pointer;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
 }
