@@ -11,7 +11,7 @@ async function renderMarkup(images) {
   // => return - РЕЗУЛЬТАТОМ Ф-ИИ ЯВЛ-СЯ ДИНАМИЧЕСКАЯ РАЗМЕТКА С ПРИМЕНЕНИЕМ ИНТЕРПОЛЯЦИИ ДИНАМИЧЕСКИХ ПАРАМЕТРОВ
   // => refs.gallery.insertAdjacentHTML(MARKUP) - ВСТАВЛЯЮ РАЗМЕТКУ В ВЫБРАННЫЙ ЭЛ-Т БАЗОВОЙ РАЗМЕТКИ
   // const markup = images.map(img => {const {..} = img; return...}) - МЕТОД map - ВЫЗЫВАЕТ СТРЕЛОЧНУЮ Ф-Ю С ПАРАМЕТРОМ img(ОБЬЕКТ ИЗ МАССИВА),КОТОРАЯ ПЕРЕБИРАЕТ МАССИВ images
-	const markup = images
+  const markup = images
     .map(img => {
       const {
         webformatURL,
@@ -51,16 +51,12 @@ async function renderMarkup(images) {
 
 export default renderMarkup;
 
-
-
-
 //
 //
 
 //
 
 //
-
 
 //
 //
