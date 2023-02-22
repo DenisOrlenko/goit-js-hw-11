@@ -25,7 +25,7 @@ async function renderMarkup(images) {
       return `
 			<div class="photo-card">
 					<a class="photo-link" href="${largeImageURL}">
-						<img src="${webformatURL}" alt="${tags}" width="350" height="250" loading="lazy" />
+						<img src="${webformatURL}" alt="${tags}" width="640" height="427" loading="lazy" />
 					</a>
 				<div class="info">
 					<p class="info-item">
