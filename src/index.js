@@ -11,7 +11,7 @@ import fetchImages from './js/fetch-api';
 import renderMarkup from './js/render-markup';
 
 Notify.init({
-  width: '50%',
+  width: '20%',
 });
 
 // ДОБАВЛЯЮ ОБЬЕКТ НАСТРОЕК ДЛЯ simpleLightBox + ВЕШАЮ ПЛАГИН НА ССЫЛКУ В КОТОРУЮ ОБЕРНУТА КАРТИНКА
